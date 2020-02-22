@@ -26,7 +26,6 @@ const tabConstructor = (topic) => {
 
 axios.get('https://lambda-times-backend.herokuapp.com/topics')
     .then((response) => { 
-        console.log(response)
         response.data.topics.forEach(element => {
             // parentTab.prependChild(tabConstructor(element)) 
             parentTab.appendChild(tabConstructor(element)) 
