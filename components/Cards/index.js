@@ -62,22 +62,6 @@ const cardConstructor = (object) => {
 
 const cardsParent = document.querySelector('.cards-container');
 
-// axios.get('https://lambda-times-backend.herokuapp.com/articles')
-//     .then((response) => {
-//         console.log(response)
-//         // for each response object, go over each article array
-//         response.data.articles.forEach((article) =>{
-//             // for each article array, go over the object 
-//             article.bootstrap.forEach((articleObject) => {
-//                 cardsParent.appendChild(cardConstructor(articleObject))
-//             })
-//         })
-//     })
-//     .catch((err) => {
-//         console.log(err)
-//         console.log('you have a big error, tex')
-//     })
-
 
 axios.get('https://lambda-times-backend.herokuapp.com/articles')
     .then((response) => {
@@ -109,3 +93,19 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
     // must iterate over arrays to pass object to constructor 
 
     // for each object, iterate over array to pass object to constructor 
+
+    // axios.get('https://lambda-times-backend.herokuapp.com/articles')
+//     .then((response) => {
+//         console.log(response)
+//         // for each response object, go over each article array
+//         response.data.articles.forEach((article) =>{
+//             // for each article array, go over the object 
+//             article.bootstrap.forEach((articleObject) => {
+//                 cardsParent.appendChild(cardConstructor(articleObject))
+//             })
+//         })
+//     })
+//     .catch((err) => {
+//         console.log(err)
+//         console.log('you have a big error, tex')
+//     })

@@ -32,14 +32,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
+	Document object model, represents the bridge of data between the code base and the browser. 
 
 2. What is an event?
+	a user invoked response that communicates action and interactivity to a browser to be processed by the code base 	
 
 3. What is an event listener?
+	code that watches for specific user interaction with interface.	
 
 4. Why would we convert a NodeList into an Array?
+	to be able to perform methods on the contained data.	
 
 5. What is a component?
+	a modular piece of code that is able to be manipulated per dynamic data input. A template of sorts.
 
 ### Git Set up
 
@@ -52,13 +57,13 @@ Edit this document to include your answers after each question. Make sure to lea
 
 Your finished project must include all of the following requirements:
 
-* [ ] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
+* [ x ] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
 
-* [ ] Following the instructions in the `Header/index.js` file, create the Header component. 
+* [ x ] Following the instructions in the `Header/index.js` file, create the Header component. 
 
-* [ ] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
+* [ x ] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
 
-* [ ] Following the instructions in the `Cards/index.js` file, create individual Cards components.
+* [ x ] Following the instructions in the `Cards/index.js` file, create individual Cards components.
 
 ## Stretch Problems
 
